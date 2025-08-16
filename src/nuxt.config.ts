@@ -78,6 +78,16 @@ export default defineNuxtConfig({
         language: 'pt-BR',
         name: 'Português (Brasil)',
       },
+      {
+        code: 'tr',
+        language: 'tr-TR',
+        name: 'Türkçe',
+      },
+      {
+        code: 'bn',
+        language: 'bn-BD',
+        name: 'বাংলা',
+      },
     ],
     defaultLocale: 'en',
     vueI18n: './i18n.config.ts',
@@ -90,7 +100,7 @@ export default defineNuxtConfig({
     esbuild: {
       options: {
         // to support big int
-        target: 'es2020',
+        target: 'node20',
       },
     },
     alias: {
